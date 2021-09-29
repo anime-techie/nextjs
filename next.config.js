@@ -4,8 +4,8 @@ module.exports = {
 		async rewrites() {
 			return [
 				{
-					source: '/api/*',
-					destination: 'https://*',
+					source: '/api/:path*',
+					destination: 'https://nextjstest.vercel.app/:path*',
 				},
 			];
 		},
