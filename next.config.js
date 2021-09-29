@@ -5,7 +5,7 @@ module.exports = {
 			return [
 				{
 					source: '/api/:path*',
-					destination: 'https://nextjstest.vercel.app/:path*',
+					destination: 'https://nextjstest-sooty-one.vercel.app/:path*',
 				},
 			];
 		},
